@@ -1,0 +1,88 @@
+[gd_scene load_steps=4 format=3 uid="uid://da6s2k0iy3ytx"]
+
+[ext_resource type="Texture2D" uid="uid://b43lr5wh677oo" path="res://art/Tiny Swords (Update 010)/UI/Banners/Banner_Vertical.png" id="1_cl822"]
+[ext_resource type="Script" path="res://ui/menus/chest/chest_menu.gd" id="1_y7o7l"]
+[ext_resource type="Texture2D" uid="uid://diev3e4q11eu2" path="res://art/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png" id="2_u5rwi"]
+
+[node name="ChestMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y7o7l")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 10.0
+offset_right = 236.0
+offset_bottom = 222.0
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = -52.0
+offset_top = -43.0
+offset_right = 270.0
+offset_bottom = 252.0
+texture = ExtResource("1_cl822")
+
+[node name="Panel" type="Panel" parent="Background"]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 43.0
+offset_right = 97.0
+offset_bottom = 87.0
+
+[node name="TextureRect2" type="TextureRect" parent="Background/Panel"]
+layout_mode = 0
+offset_left = -14.0
+offset_top = -10.0
+offset_right = 50.0
+offset_bottom = 54.0
+texture = ExtResource("2_u5rwi")
+
+[node name="Panel2" type="Panel" parent="Background"]
+offset_left = 124.0
+offset_top = 41.0
+offset_right = 163.0
+offset_bottom = 85.0
+
+[node name="TextureRect2" type="TextureRect" parent="Background/Panel2"]
+layout_mode = 0
+offset_left = -14.0
+offset_top = -8.0
+offset_right = 50.0
+offset_bottom = 56.0
+texture = ExtResource("2_u5rwi")
+
+[node name="Panel3" type="Panel" parent="Background"]
+offset_left = 54.0
+offset_top = 111.0
+offset_right = 93.0
+offset_bottom = 155.0
+
+[node name="TextureRect2" type="TextureRect" parent="Background/Panel3"]
+layout_mode = 0
+offset_left = -11.0
+offset_top = -13.0
+offset_right = 53.0
+offset_bottom = 51.0
+texture = ExtResource("2_u5rwi")
+
+[node name="Panel4" type="Panel" parent="Background"]
+offset_left = 122.0
+offset_top = 110.0
+offset_right = 161.0
+offset_bottom = 154.0
+
+[node name="TextureRect2" type="TextureRect" parent="Background/Panel4"]
+layout_mode = 0
+offset_left = -13.0
+offset_top = -11.0
+offset_right = 51.0
+offset_bottom = 53.0
+texture = ExtResource("2_u5rwi")

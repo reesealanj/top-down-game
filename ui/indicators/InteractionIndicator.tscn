@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://qpdahdfdnm1g"]
+
+[ext_resource type="Texture2D" uid="uid://djnp6fpls5f3d" path="res://art/Tiny Swords (Update 010)/UI/Pointers/01.png" id="1_0odui"]
+
+[node name="InteractionIndicator" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(6, -1)
+rotation = -0.460767
+scale = Vector2(0.309621, 0.298549)
+texture = ExtResource("1_0odui")
